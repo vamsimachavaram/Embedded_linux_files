@@ -1,0 +1,8 @@
+ #include<stdio.h>
+ int main()
+ {
+   char a[10];
+   char str[19]="12072019233212";
+	 sprintf(a, "%.2s/%.2s/%.4s", str,str+2,str+4);
+   printf("%s\n", a);
+}
